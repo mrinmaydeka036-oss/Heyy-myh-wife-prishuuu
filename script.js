@@ -46,7 +46,7 @@ let index = 0;
 envelope.addEventListener("click", () => {
 
     flap.style.transform = "rotateX(180deg)";
-    letter.style.transform = "translate(-50%,-165%)";
+    letter.style.transform = "translate(-50%,-135%)";
 
     music.currentTime = 0;
     music.play().catch(()=>{});
